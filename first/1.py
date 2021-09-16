@@ -11,7 +11,7 @@ ts = turtle.getscreen()
 colors = ['red','blue','green','pink','orange','purple']
 t.ht()
 t.penup()
-t.setpos(0,200)
+t.setpos(-100,200)
 t.pendown()
 
 # executing loop 6 times for 6 sides
