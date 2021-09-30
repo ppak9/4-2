@@ -5,7 +5,7 @@
     4. Description : hexagon divided into isosceles triangle + draw the polygon with value k as the polygon sides
 """
 
-# import turtle with function of  turtle library  
+# import turtle with function of turtle library  
 from turtle import Screen,Turtle
 
 t = Turtle()
