@@ -1,8 +1,9 @@
 from turtle import *
 from random import randint
 
-t1 = Turtle()
+# For testing
 
+t1 = Turtle()
 # set the refree turtle, set the manual
 
 t1 = Turtle()
