@@ -27,9 +27,10 @@ b_s = 0
 x = 0
 y = 0
 
+
 while True:
-    r_r = randint(70,90)
-    b_r = randint(70,90)
+    r_r = randint(100,140)
+    b_r = randint(100,140)
     r_s += r_r
     b_s += b_r
 
