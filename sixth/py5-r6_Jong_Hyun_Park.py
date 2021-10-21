@@ -1,6 +1,6 @@
 """
     1. Programmer : Jong Hyun Park
-    2. Date : 2021.10.16
+    2. Date : 2021.10.20
     3. File_name : py5-r6_Jong_Hyun_Park
     4. Description : Turtle race & Add a random value graph
 """
@@ -27,7 +27,6 @@ def drawGraph(t,select,list):                                               #A f
         t.fd(40)
 
 t1 = Turtle()
-# set the refree turtle, set the manual
 
 t1 = Turtle()
 t1.shape("turtle")
@@ -54,7 +53,6 @@ t3.pd()
 t4.pu()
 t4.goto(250,-300)
 t4.pd()
-# explain about the red_sum
 r_s = 0
 b_s = 0
 
