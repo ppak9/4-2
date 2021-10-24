@@ -5,7 +5,7 @@
     4. Description : Hexagon + Circle
 """
 
-from turtle import Screen,Turtle
+from turtle import *
 from math import pi, sin as sine
 # for pause final result import python module
 import time 
@@ -15,7 +15,6 @@ import time
 # Define a Turtle Instance
 t = Turtle()
 # for export final result, export turtle library of the getscreen
-screen = Screen()
 l = 300
 
 inside_angle = 4 /3 * pi
@@ -26,12 +25,12 @@ radius = l/(2 * sine(pi / 6))
 # set the color list
 colors = ['red','blue','green','pink','orange','purple']
 #hiding figure
-t.speed('slowest')
+t.speed(0)
 
 # for set start position
-t.penup()
-t.setpos(-100,200)
-t.pendown()
+t.pu()
+t.goto(-100,200)
+t.pd()
 n = int(input("enter the value of N: "))
 # executing loop 6 times for 6 sides
 for i in range(6):
@@ -45,11 +44,10 @@ for i in range(6):
         t.fd(25)
         t.right(360/n)
     t.backward(100)
-    t.left(120)
+    t.rt(300)
     t.fd(l)
-    t.right(60)
     # Turn left the turtle by 300 degrees  
     t.end_fill()
  
 #  export final result of the picture
-screen.exitonclick()
+exitonclick()

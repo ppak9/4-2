@@ -10,7 +10,7 @@ from turtle import Screen,Turtle
 
 t = Turtle()
 #set the speed of the turtle
-t.speed('slowest')
+t.speed(0)
 #hide the figure 
 t.ht()
 # set the hexagon sides
