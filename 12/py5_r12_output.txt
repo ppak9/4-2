@@ -1,0 +1,2 @@
+the sum is 384.1
+the average is76.82000000000001
